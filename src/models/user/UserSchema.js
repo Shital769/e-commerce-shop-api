@@ -7,11 +7,11 @@ const userSchema = new mongoose.Schema(
       default: "inactive",
     },
     fName: {
-      type: Stting,
+      type: String,
       required: true,
     },
     lName: {
-      type: Stting,
+      type: String,
       required: true,
     },
     address: {
